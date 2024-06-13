@@ -91,12 +91,12 @@ function displayParkingLots(parkingLots) {
 
         parkElement.innerHTML = `
             <h3>${park.parkName}</h3>
-            <p><strong>Distance:</strong> ${park.distance.toFixed(2)} km</p>
-            <p><strong>Total Capacity:</strong> ${park.capacity}</p>
-            <p><strong>Available Capacity:</strong> ${availableCapacity.outerHTML}</p>
-            <p><strong>Type:</strong> ${park.parkType}</p>
-            <p><strong>District:</strong> ${park.district}</p>
-            <p><strong>Working Hours:</strong> ${park.workHours}</p>
+            <p><strong>Mesafe:</strong> ${park.distance.toFixed(2)} km</p>
+            <p><strong>Toplam Kapasite:</strong> ${park.capacity}</p>
+            <p><strong>Uygun Kapasite:</strong> ${availableCapacity.outerHTML}</p>
+            <p><strong>Tip:</strong> ${park.parkType}</p>
+            <p><strong>Bölge:</strong> ${park.district}</p>
+            <p><strong>Çalışma Saatleri:</strong> ${park.workHours}</p>
             <p><a href="${googleMapsUrl}" target="_blank">View on Google Maps</a></p>
         `;
         resultDiv.appendChild(parkElement);
